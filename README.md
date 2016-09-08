@@ -1,8 +1,12 @@
 ## neustar2maxmind
 
 ### Installation
-See instructions in INSTALL. tl;dr: you need the Perl packages `JSON`, `YAML`,
-`Refcount`, and `MaxMind::DB::Writer::Tree`.
+sudo apt-get install python-pip -y
+sudo pip install joblib netaddr
+sudo apt-get install cpanminus -y
+cpanm Text::CSV
+cpanm MaxMind::DB::Writer
+
 
 
 ### Conversion Example
